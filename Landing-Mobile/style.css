@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Rubik&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Rubik:wght@400;700&family=Work+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
   background-color: white;
   box-sizing: border-box;
+  color: #393a4a;
 }
 
 nav {
@@ -18,25 +19,61 @@ nav {
   font-family: "Poppins";
 }
 nav .logo {
-  font-size: 70px;
+  font-size: 90px;
   width: 30%;
   margin: 20px;
   color: #393a4a;
   font-family: "Work Sans", "san-serif";
+  font-weight: bolder;
   justify-content: center;
   align-items: center;
 }
 nav .button1 {
   display: block;
-  width: 30%;
-  height: 70px;
+  width: 25%;
+  height: 8vh;
+  padding: 10px 10px;
   border: 2px solid #393a4a;
   border-radius: 10px;
   text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+img {
+  padding: 20px 20px;
 }
 
 a:link,
 a:visited {
   text-decoration: none;
   color: #393a4a;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins";
+}
+header div h1 {
+  color: deepskyblue;
+  font-family: "Rubik";
+  font-weight: bolder;
+  font-size: 50px;
+  font-weight: bold;
+  width: 100%;
+  padding: 40px 40px;
+}
+header div h2 {
+  font-size: 40px;
+  padding: 30px 30px;
+  font-size: 42px;
+}
+header div h3 {
+  color: deepskyblue;
+  font-size: 35px;
+  padding: 30px 30px;
 }
