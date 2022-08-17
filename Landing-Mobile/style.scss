@@ -3,6 +3,7 @@ $color-primary: rgb(57, 58, 74);
 $color-black: rgb(21, 21, 21);
 $color-secondary: rgb(0, 191, 255);
 $color-footer: rgba(236, 236, 178, 0.755);
+$color-background: rgba(255, 255, 223, 0.882);
 
 $font-logo: "Work Sans", "san-serif";
 $font-primary: "Rubik";
@@ -27,6 +28,7 @@ nav {
     align-items: center;
     font-size: 30px;
     font-family: $font-secondary;
+    background-color: $color-background;
     .logo {
         font-size: 90px;
         width: 30%;
@@ -62,6 +64,7 @@ a:visited {
 
 
 header {
+    background-color: $color-background;
     div {
         display: flex;
         flex-direction: column;
