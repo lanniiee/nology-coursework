@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: white;
   box-sizing: border-box;
   color: #393a4a;
 }
@@ -47,7 +46,6 @@ img {
 a:link,
 a:visited {
   text-decoration: none;
-  color: #393a4a;
 }
 
 header div {
@@ -76,4 +74,46 @@ header div h3 {
   color: deepskyblue;
   font-size: 35px;
   padding: 30px 30px;
+}
+header div h4 {
+  font-size: 30px;
+  padding: 30px 30px;
+}
+
+.button2 {
+  border: 2px solid #393a4a;
+  width: 50%;
+  font-size: 25px;
+  color: white;
+  background-color: #393a4a;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+
+div h5 {
+  font-size: 40px;
+  padding: 40px 40px;
+}
+div p {
+  font-size: 35px;
+  display: block;
+}
+
+footer {
+  background-color: rgba(236, 236, 178, 0.755);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+  padding: 30px 30px;
+}
+footer #contact {
+  padding: 20px 20px;
+}
+footer #privacy {
+  padding: 20px 20px;
+}
+footer #terms {
+  padding: 20px 20px;
 }

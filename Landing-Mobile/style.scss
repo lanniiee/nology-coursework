@@ -2,6 +2,7 @@
 $color-primary: rgb(57, 58, 74);
 $color-black: rgb(21, 21, 21);
 $color-secondary: rgb(0, 191, 255);
+$color-footer: rgba(236, 236, 178, 0.755);
 
 $font-logo: "Work Sans", "san-serif";
 $font-primary: "Rubik";
@@ -11,7 +12,6 @@ $font-secondary: "Poppins";
 * {
     margin: 0;
     padding: 0;
-    background-color: white;
     box-sizing: border-box;
     color: $color-primary;
 
@@ -58,7 +58,6 @@ img {
 a:link ,
 a:visited {
     text-decoration: none;
-    color: $color-primary;
 }
 
 
@@ -89,6 +88,49 @@ header {
             font-size: 35px;
             padding: 30px 30px;
         }
+        h4 {
+            font-size: 30px;
+            padding: 30px 30px;
+        }
     }
 }
 
+.button2 {
+    border: 2px solid $color-primary;
+    width: 50%;
+    font-size: 25px;
+    color: white;
+    background-color: $color-primary;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+div {
+    h5 {
+        font-size: 40px;
+        padding: 40px 40px;
+    }
+    p {
+        font-size: 35px;
+        display: block;
+    }
+}
+
+footer {
+    background-color: $color-footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    padding: 30px 30px;
+    #contact {
+        padding: 20px 20px;
+    }
+    #privacy {
+        padding: 20px 20px;
+    }
+    #terms {
+        padding: 20px 20px;
+    }
+}
