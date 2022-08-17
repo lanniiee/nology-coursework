@@ -90,13 +90,17 @@ header div h4 {
   padding: 15px 15px;
 }
 
+div {
+  padding: 40px 40px;
+  image-resolution: 150px;
+}
 div h5 {
   font-size: 40px;
   padding: 40px 40px;
 }
 div p {
   font-size: 35px;
-  display: block;
+  display: inline-block;
 }
 
 footer {
