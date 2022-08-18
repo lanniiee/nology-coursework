@@ -1,7 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Rubik:wght@400;700&family=Work+Sans&display=swap");
-@media screen and (min-wdith: 768) {
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Oswald&family=PT+Sans&family=Poppins&family=Rubik:wght@400;700&family=Work+Sans&display=swap");
+@media screen and (min-wdith: 768px) {
   main {
-    width: 300;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 991px) {
+  main {
+    width: 500px;
   }
 }
 * {
@@ -35,9 +40,9 @@ nav .logo {
 }
 nav .button1 {
   display: block;
-  width: 25%;
-  height: 10vh;
-  padding: 20px 20px;
+  width: 12vh;
+  height: 6vh;
+  padding: 10px 10px;
   border: 2px solid #3b4169;
   border-radius: 10px;
   text-align: center;
@@ -47,8 +52,8 @@ nav .button1 {
 
 .phone {
   padding: 10px 10px;
-  max-width: 100vh;
-  max-height: 100vh;
+  max-width: 75vh;
+  max-height: 75vh;
   width: 100vh;
   height: 100vh;
 }
@@ -65,6 +70,7 @@ a:visited {
 
 header {
   background-color: rgba(255, 255, 238, 0.882);
+  padding: 40px;
 }
 header div {
   display: flex;
@@ -76,7 +82,7 @@ header div {
 }
 header div h1 {
   color: deepskyblue;
-  font-family: "Rubik";
+  font-family: "Comic Sans MS";
   font-size: 40px;
   font-weight: bold;
   width: 100%;
@@ -93,7 +99,7 @@ header div h3 {
 }
 header div h4 {
   font-size: 22px;
-  padding: 30px 30px;
+  padding-bottom: 50px;
 }
 
 .button2 {
@@ -110,7 +116,7 @@ header div h4 {
 h5 {
   text-align: center;
   font-size: 40px;
-  padding: 50px;
+  padding-top: 50px;
   font-family: "Rubik";
   font-weight: lighter;
 }

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Rubik:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Oswald&family=PT+Sans&family=Poppins&family=Rubik:wght@400;700&family=Work+Sans&display=swap');
+
 $color-primary: rgb(59, 65, 105);
 $color-black: rgb(21, 21, 21);
 $color-secondary: rgb(0, 191, 255);
@@ -7,14 +8,20 @@ $color-background: rgba(255, 255, 238, 0.882);
 
 $font-logo: "Work Sans", "san-serif";
 $font-primary: "Rubik";
-$font-secondary: "Poppins"; 
+$font-secondary: "Poppins";
+$font-backup: "Concert One"; 
 
-@media screen and (min-wdith:768) {
+@media screen and (min-wdith: 768px) {
     main {
-        width: 300;
+        width: 300px;
     }
 }
 
+@media screen and (min-width: 991px) {
+    main {
+        width: 500px;
+    }
+}
 
 * {
     margin: 0;
@@ -47,9 +54,9 @@ nav {
     }
     .button1 {
         display: block;
-        width: 25%;
-        height: 10vh;
-        padding: 20px 20px;
+        width: 12vh;
+        height: 6vh;
+        padding: 10px 10px;
         border: 2px solid $color-primary;
         border-radius: 10px;
         text-align: center;
@@ -61,8 +68,8 @@ nav {
 
 .phone {
     padding: 10px 10px;
-    max-width: 100vh;
-    max-height: 100vh;
+    max-width: 75vh;
+    max-height: 75vh;
     width: 100vh;
     height: 100vh;
 }
@@ -79,6 +86,7 @@ a:visited {
 
 header {
     background-color: $color-background;
+    padding: 40px;
     div {
         display: flex;
         flex-direction: column;
@@ -88,7 +96,7 @@ header {
         font-family: $font-secondary;
         h1 {
         color: $color-secondary;
-        font-family: $font-primary;
+        font-family: "Comic Sans MS";
         font-size: 40px;
         font-weight: bold;
         width: 100%;
@@ -105,7 +113,7 @@ header {
         }
         h4 {
             font-size: 22px;
-            padding: 30px 30px;
+            padding-bottom: 50px;
         }
     }
 }
@@ -124,7 +132,7 @@ header {
 h5 {
     text-align: center;
     font-size: 40px;
-    padding: 50px;
+    padding-top: 50px;
     font-family: $font-primary;
     font-weight: lighter;
 
