@@ -50,3 +50,5 @@ const allNumbersPositive = (nums) => {
 
 console.log(allNumbersPositive([2, 4, 5]));
 console.log(allNumbersPositive([-5, 4, 6]));
+
+// More practice with loop, array, functions, if statements.

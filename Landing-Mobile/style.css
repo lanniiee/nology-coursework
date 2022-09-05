@@ -29,12 +29,8 @@ nav {
   background-color: rgba(255, 255, 238, 0.882);
 }
 nav .logo {
-  font-size: 90px;
-  width: 30%;
-  margin: 20px;
-  color: #3b4169;
-  font-family: "Work Sans", "san-serif";
-  font-weight: bolder;
+  width: 35vh;
+  height: 35vh;
   justify-content: center;
   align-items: center;
 }
