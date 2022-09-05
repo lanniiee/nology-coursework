@@ -35,4 +35,18 @@ const getLastName = (names) => {
 getLastName(["Charlie", "Rob", "Andy"]);
 getLastName(["Ash", "Stu"]);
 
-// 5. 
+
+// 5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
+// for loop: Go through all items in array. If statement in for loop check if there is a negative number. If found, return false. If not then return true as all numbers are positive.
+const allNumbersPositive = (nums) => {
+    posNum = true;
+    for (i = 0; i < nums.length; i++) {
+        if (nums[i] < 0) {
+            posNum = false;
+        }
+    }
+    return posNum;
+}
+
+console.log(allNumbersPositive([2, 4, 5]));
+console.log(allNumbersPositive([-5, 4, 6]));
