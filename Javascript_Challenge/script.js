@@ -18,4 +18,10 @@ convertDaysToAge(3650);
 convertDaysToAge(6570);
 
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
+const getLargestNumber = (num1, num2, num3) => {
+    let max = Math.max(num1, num2, num3);
+    return max;
+}
 
+console.log(getLargestNumber(2, 1, 4));
+console.log(getLargestNumber(6,2,3));
