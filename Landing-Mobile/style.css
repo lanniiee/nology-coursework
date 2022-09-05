@@ -36,8 +36,8 @@ nav .logo {
 }
 nav .button1 {
   display: block;
-  width: 12vh;
-  height: 6vh;
+  width: 15vh;
+  height: 7vh;
   padding: 10px 10px;
   border: 2px solid #3b4169;
   border-radius: 10px;
@@ -66,7 +66,7 @@ a:visited {
 
 header {
   background-color: rgba(255, 255, 238, 0.882);
-  padding: 40px;
+  padding: 0px 10px;
 }
 header div {
   display: flex;
@@ -82,7 +82,7 @@ header div h1 {
   font-size: 40px;
   font-weight: bold;
   width: 100%;
-  padding: 40px 40px;
+  padding: 10px 40px 40px 40px;
 }
 header div h2 {
   padding: 30px 30px;
